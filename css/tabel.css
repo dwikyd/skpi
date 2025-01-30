@@ -1,0 +1,37 @@
+.tabel {
+	border-collapse: collapse;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: thin solid #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.tabel th strong {
+	color: #fff;
+}
+.tabel th {
+	height: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #000000;
+	text-align: center;
+	text-transform:uppercase;
+	background-color: #CCCCCC;
+	border: thin solid #000000;
+}
+.tabel tr {
+	height: 29px;
+}
+.tabel td {
+	padding-left: 5px;
+	padding-right: 5px;
+	border: thin solid #000000;
+}
+.tabel td.first,th.first {
+	border-left: 0px;
+}
+.tabel tr.row-a {
+}
+.tabel tr.row-b {
+	background-color: #00CC33;
+}

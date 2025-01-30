@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^$ cetak.php?url=home [L]
+RewriteRule ^index\.html$ cetak.php?url=home [L]
+RewriteRule ^(.*)\.html$ cetak.php?url=$1 [L]
+
+ErrorDocument 404 "<h1>Invalid Print</h1>"
+
+Options All -Indexes
+</IfModule>
